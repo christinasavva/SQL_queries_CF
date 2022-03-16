@@ -1,0 +1,15 @@
+SELECT SUM (E.amount) AS total_amount,
+COUNT (DISTINCT A.customer_id) AS cnts_customer,
+D.country,
+e.payment_date,
+j.name AS category
+FROM customer A
+INNER JOIN address B ON A.address_id = B.address_id
+INNER JOIN city C ON B.city_id = C.city_id
+INNER JOIN country D ON C.country_id = D.country_id
+INNER JOIN payment E ON A.customer_id = E.customer_id
+INNER JOIN rental F ON E.rental_id = F.rental_id
+INNER JOIN inventory G ON F.inventory_id = G.inventory_id
+INNER JOIN film_category H ON G.film_id = H.film_id
+INNER JOIN category J ON H.category_id = J.category_id
+GROUP BY D.country,E.payment_date,category
