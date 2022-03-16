@@ -1,0 +1,14 @@
+SELECT C.name AS category_name,
+AVG (A.rental_rate) AS avg_rental_rate,
+AVG (A.rental_duration) AS avg_rental_duration,
+AVG (A.length) AS avg_length,
+AVG (A.replacement_cost) AS avg_replacement_cost,
+COUNT (DISTINCT A.film_id) AS cnts_film,
+COUNT (DISTINCT E.rental_id) AS cnts_rental_id
+FROM film A
+INNER JOIN inventory D ON A.film_id = D.film_id
+INNER JOIN film_category B ON A.film_id = B.film_id
+INNER JOIN category C ON B.category_id = C.category_id
+INNER JOIN rental E ON D.inventory_id = E.inventory_id
+GROUP BY category_name
+ORDER BY cnts_film DESC
