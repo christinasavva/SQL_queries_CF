@@ -13,6 +13,6 @@ online services in their product range.
 **Objective:** Give an overview of *current business performance and provide recommendations for
 Rockbuster management to set up an online rental service.
 
-*Current business performance timeframe: 14th Feb to 14th May 2007
+Tableau presentation can be viewed [here](https://public.tableau.com/app/profile/christina.savva/viz/ROCKBUSTERSTEALTHLLCBusinessInsights/ROCKBUSTERSTEALTHLLCBusinessInsights).
 
-Tableau presentation [here](https://public.tableau.com/app/profile/christina.savva/viz/ROCKBUSTERSTEALTHLLCBusinessInsights/ROCKBUSTERSTEALTHLLCBusinessInsights).
+*Current business performance timeframe: 14th Feb to 14th May 2007
