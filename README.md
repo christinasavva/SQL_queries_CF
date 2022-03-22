@@ -2,7 +2,7 @@
 
 Study material for a project within an eight-month Data Analytics course with CareerFoundry
 
-##**Project Summary**
+## **Project Summary**
 
 **Company profile:** Rockbuster Stealth LLC is movie rentals company with stores around the world.
 
