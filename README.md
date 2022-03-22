@@ -1,4 +1,4 @@
-# SQL_queries
+# SQL_queries_CF
 
 Study material for a project within an eight-month Data Analytics course with CareerFoundry
 
