@@ -1,6 +1,6 @@
 # SQL_queries_CF
 
-Study material for a project within an eight-month Data Analytics course with CareerFoundry
+Study material for a project within a ten-month Data Analytics course with CareerFoundry. 
 
 ## **Project Summary**
 
